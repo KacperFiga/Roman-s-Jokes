@@ -49,7 +49,6 @@ button {
   position: absolute;
   bottom: 0;
   left: 0;
-  display: flex;
   display: grid;
   gap: 20px;
   width: 100%;
@@ -79,7 +78,6 @@ button {
   button {
     cursor: pointer;
     transition: all 0.4s;
-    overflow: hidden;
   }
 
   button:hover {
@@ -88,14 +86,14 @@ button {
   }
 
   .joke {
-    min-height: 500px;
+    min-height: 300px;
   }
 }
 
-@media (orientation: landscape) {
+@media (max-height: 500px) {
   .joke {
     gap: 0;
-    height: 20%;
+    /* max-height: 200px; */
     padding: 0;
   }
 }
