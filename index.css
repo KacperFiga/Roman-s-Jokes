@@ -86,14 +86,16 @@ button {
   }
 
   .joke {
-    min-height: 300px;
+    min-height: 350px;
   }
 }
 
 @media (max-height: 500px) {
   .joke {
     gap: 0;
-    /* max-height: 200px; */
     padding: 0;
+  }
+  .header {
+    visibility: hidden;
   }
 }
