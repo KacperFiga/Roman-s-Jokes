@@ -99,6 +99,6 @@ button {
     visibility: hidden;
   }
   .joke {
-    min-height: 100vh;
+    min-height: 85vh;
   }
 }
