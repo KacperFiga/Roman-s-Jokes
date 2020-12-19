@@ -7,7 +7,6 @@ const url = "https://api.jsonbin.io/b/5eda3e691f9e4e578817d386";
 
 let data = null;
 let len = null;
-let flag = false;
 
 const getData = () => {
   fetch(url)
