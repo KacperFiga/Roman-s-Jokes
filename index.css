@@ -86,7 +86,7 @@ button {
   }
 
   .joke {
-    max-height: 350px;
+    min-height: 350px;
   }
 }
 
@@ -97,5 +97,8 @@ button {
   }
   .header {
     visibility: hidden;
+  }
+  .joke {
+    min-height: 100vh;
   }
 }
